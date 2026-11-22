@@ -12,12 +12,12 @@ Pick the option that matches where you use Claude. Each takes about 2 minutes.
 
 ## A. Claude Code plugin (recommended)
 
-Needs the skill to be on GitHub (see [D](#d-publish-it-so-anyone-can-install-it)). Replace `<github-user>/<repo>` with the repo name.
+The skill is published at [github.com/adixoo/cold-email-skill](https://github.com/adixoo/cold-email-skill).
 
 1. Open Claude Code.
 2. Add the marketplace:
    ```
-   /plugin marketplace add <github-user>/<repo>
+   /plugin marketplace add adixoo/cold-email-skill
    ```
 3. Install the skill:
    ```
@@ -78,7 +78,7 @@ The skill then works in every new chat, on web, desktop and mobile.
    git add .
    git commit -m "feat: add cold-email skill"
    git branch -M main
-   git remote add origin https://github.com/<github-user>/cold-email-skill.git
+   git remote add origin https://github.com/adixoo/cold-email-skill.git
    git push -u origin main
    ```
    Or, with the GitHub CLI: `gh repo create cold-email-skill --public --source . --push`

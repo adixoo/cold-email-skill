@@ -44,7 +44,7 @@ Quick version (full steps in **[INSTALL.md](INSTALL.md)**):
 
 - **Claude Code:**
   ```
-  /plugin marketplace add <github-user>/<repo>
+  /plugin marketplace add adixoo/cold-email-skill
   /plugin install cold-email@cold-email-skill
   ```
 - **claude.ai / Claude apps:** Settings → Capabilities → Skills → **Upload skill** → choose [`cold-email.zip`](cold-email.zip).
