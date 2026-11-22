@@ -1,0 +1,13 @@
+{
+  "name": "cold-email-skill",
+  "owner": {
+    "name": "cold-email-skill"
+  },
+  "plugins": [
+    {
+      "name": "cold-email",
+      "source": "./",
+      "description": "Write personalized cold emails and DMs to founders, recruiters, referrers and clients using the Context + Relevance + Proof + Small Ask formula."
+    }
+  ]
+}
